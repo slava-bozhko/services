@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ul li{
+    width: 33%;
+    margin: 20px;
+}
+.textbold{
+    text-transform: uppercase;
+    margin: 20px;
+}
+.textopacity{
+    opacity: 50%;
+}
+.stylesvg{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    padding: 18px;
+    fill: #fff;
+    border: 1px solid #2a69a6;
+    border-radius: 50%;
+    background-color:  #2a69a6;
+}
+.stylesvg:hover,
+.stylesvg:focus,
+.stylesvg:active{
+    border: 1px solid #2a69a6;
+    background-color: #fff;
+    fill: #2a69a6;
+}
