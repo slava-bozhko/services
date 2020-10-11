@@ -37,6 +37,8 @@ ul li{
     border: 1px solid #2a69a6;
     border-radius: 50%;
     background-color:  #2a69a6;
+    transition: all .3s ease-in-out;
+
 }
 .stylesvg:hover,
 .stylesvg:focus,
@@ -44,4 +46,6 @@ ul li{
     border: 1px solid #2a69a6;
     background-color: #fff;
     fill: #2a69a6;
+    transition: all .3s ease-in-out;
+
 }
